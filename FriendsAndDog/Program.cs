@@ -6,7 +6,7 @@ int SecondFriendSpeed = 2;
 int DogSpeed = 5;
 int friend = 2;
 double time = 0;
-double timeAll = 0;
+// double timeAll = 0;     // общее время собачьего пробега
 while (distance > 10){
 	if (friend == 1){
 		time = distance / (FirstFriendSpeed + DogSpeed);
